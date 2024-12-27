@@ -1,0 +1,19 @@
+DX_A * t_a + DX_B * t_b - ANS_X = 0
+DY_A * t_a + DY_B * t_b - ANS_Y = 0
+all numbers are integers
+t_a and t_b are integers and >= 0
+find t_a and t_b such that t_a*3+t_b is minimal
+
+
+
+
+
+ax*a+bx*b = tx
+ay*a+by*b = ty
+
+b=(tx-ax*a)/bx
+ay*a+by*((tx-ax*a)/bx)=ty
+ay*a*bx + by*(tx-ax*a) = ty*bx
+ay*a*bx + by*tx - by*ax*a = ty*bx
+a*(ay+bx-by*ax)=ty*bx-by*tx
+a = (ty*bx-by*tx) / (ay*bx-by*ax)

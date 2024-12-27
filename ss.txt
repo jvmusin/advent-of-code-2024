@@ -1,0 +1,22 @@
+my arm
+
+directional arm 1 (1)
+
+directional arm 2 (2)
+
+numeric arm (3)
+
+
+dp
+[how many (directional) hands to skip with A: initially 0, target 25]
+[initial directional r][c]
+[finish directional r][c]
+= number of presses to get from initial directional rc to finish directional rc
+
+
+
+
+<vA<AA>>^AvAA<^A>A      <v<A>>^AvA^A<vA>^A<v<A>^A>AAvA^A<v<A>A>^AAAvA<^A>A
+v<<A>>^A                <A>AvA<^AA>A<vAAA>^A
+<A                      ^A>^^AvvvA
+0                       29A
